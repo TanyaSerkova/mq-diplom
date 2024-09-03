@@ -384,6 +384,14 @@ a {
   font-size: 0.01px;
 }
 
+.popup__hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  font-size: 0.01px;
+}
+
 .search {
   display: flex;
 }
@@ -633,7 +641,6 @@ a {
 }
 
 .popup {
-  visibility: hidden;
   display: flex;
 	justify-content: center;
 	align-items: center;
